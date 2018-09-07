@@ -1,0 +1,16 @@
+from task_backend import *
+
+connect('abc.db')
+t2a=('a',12,'adsf1')
+t2b=('b',10,'adsf2')
+insert(t2a)
+insert(t2b)
+view()
+ts1=(None,'a',None,None)
+search(ts1)
+tu1=('a',13,'asdf12',1)
+update(tu1)
+view()
+td1=(1,)
+delete(td1)
+view()

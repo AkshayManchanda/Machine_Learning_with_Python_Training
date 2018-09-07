@@ -1,0 +1,5 @@
+num1=float(input("Enter dividend: "))
+num2=float(input("Enter divisor: "))
+q=int(num1/num2)
+r=int(num1%num2)
+print("The Quotient is {} and Remainder is {}".format(q,r))
